@@ -26,7 +26,7 @@ Since the dataset is all textual based and computer can only understand numerica
 * Check for the missing value</br>
 * Handling the missing value: replace the null value with an empty string</br>
 * Combine the Author and Title in one column as 'Content'.</br>
-* Stemming: It is a process of reducing the word to the root word. In this step, we will also all the non-alphabetical items from the text by using regular expressions. Also, We will remove the stopwords from the text during this.</br>
+* Stemming: It is a process of reducing the word to the root word. In this step, we will also remove all the non-alphabetical items from the text by using regular expressions. Also, We will remove the stopwords from the text during this.</br>
 * Separate the data and the label: For the data part we will only consider the content(Author and Title Combined) rest will be ignored and for the label, we will take the last column which tells whether the news is real or fake.</br>
 * Converting text to numerical Values: This is the final step of data processing where we will convert all the text to numeric values based on their importance using TfidfVectorizer.</br></br>
 ### **Splitting the data into training and Test sets**:</br>
